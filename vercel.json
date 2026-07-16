@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npx gulp build",
+  "outputDirectory": ".",
+  "ignoreCommand": "git diff --quiet HEAD~ HEAD -- app/ gulpfile.js package.json"
+}
